@@ -219,6 +219,19 @@ figure
     width: 60%;
 }
 
+#contout
+{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-family: Courier;
+    font-style: italic;
+    padding: 15px;
+    width: 60%;
+}
+
 #contpar
 {
 	display: flex;
