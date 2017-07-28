@@ -217,7 +217,7 @@ figure
 	display: flex;
 	flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: stretch;
     text-align: justify;
     font-family: Courier;
     font-style: italic;
@@ -230,11 +230,17 @@ figure
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
     width: 20%;
     text-align: justify;
     padding: 10px;
+    background-image: url("pictures/text.jpg");
+}
+
+#pitem:hover
+{
+	box-shadow: 1px 1px 5px black;
 }
 
 .e
