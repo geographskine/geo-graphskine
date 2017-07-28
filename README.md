@@ -1,3 +1,3 @@
 # geo-graphskine
 
-### Salut les gars
+Site web / blog de géographie, rassemblant quelques idées eues pendant mon travail de thèse.
