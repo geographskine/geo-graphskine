@@ -142,7 +142,8 @@ img
 	border-top:20px black solid ;
 	border-bottom:20px solid black;
 	align-content: center;
-	width:100%;
+	width:80%;
+	margin-bottom: 50px; 
 }
 
 
