@@ -1,0 +1,246 @@
+/*
+style.css
+---------
+
+test Kerouanton
+*/
+
+/*
+colors
+------
+#1DACE8  Azure Zissou
+#1C366B  Dark Blue Zissou
+#F24D29	 Tomato Zissou
+
+#7496D2  Faded blue Budapest
+
+#B62A3D  Brick Moonrise
+#EDCB64  Yellow Moonrise
+#DAECED  Light blue Moonrise
+
+#E8D2B9  Beige Mr Fox
+*/
+
+/* ------------ WEBSITE -------------------- */
+
+
+body
+{
+	background-color:#E8D2B9;
+}
+
+@font-face {
+	font-family: 'poltest';
+	src: url('amatic/AmaticSC-Regular.ttf') format('truetype');
+}
+
+/* ------------ HEADER -------------------- */
+
+#logo
+{
+	width: 50px;
+	border:2px grey solid;
+}
+
+#titlep
+{
+	font-family: Courier;
+	border:0px #B62A3D solid;
+	border-radius: 10px;
+	font-size: 3em;
+	text-align: center;
+}
+
+/* ------------ NAV -------------------- */
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;	
+}
+
+nav ul
+{
+	display: flex;
+	list-style: none;
+	align-items: stretch;
+}
+
+nav li
+{
+	display: flex;
+	font-family: Courier;
+	color: black;	
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+nav a
+{
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+	color:#B62A3D;
+	text-shadow: 1px 1px 15px gold;
+}
+
+/* ------------ TITLES -------------------- */
+h1
+{
+	border:3px #B62A3D dotted;
+	border-radius: 10px;
+	text-shadow: 6px 6px 10px white; 
+	color: #B62A3D;
+	font-family: 'poltest';
+	font-size: 3em;
+	text-align: center;
+}
+
+h2
+{
+	color: #B62A3D;
+	font-family: 'poltest';
+	font-style: 2.5em;
+	text-align: center;
+}
+
+/* ------------ TEXT -------------------- */
+
+p
+{
+	font-size: 0.8em;
+}
+
+/* ------------ MAPS -------------------- */
+
+#map
+{
+	border:10px white solid;
+	width:700px;
+	height:500px;
+}
+
+
+/* ------------ PICTURES -------------------- */
+
+
+/*
+img
+{
+	width: 100%;
+	border:20px #E8D2B9 solid;
+}
+*/
+
+#pic1
+{
+	border-top:20px black solid ;
+	border-bottom:20px solid black;
+	align-content: center;
+	width:100%;
+}
+
+
+figure
+{
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: right;
+}
+
+/* ------------ STRUCTURE -------------------- */
+
+#page
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-width: 400px;
+	margin: 2%;
+}
+
+#conhead
+{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#image_acc
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contac
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-family: Courier;
+    font-style: italic;
+    padding: 15px;
+    width: 60%;
+}
+
+section
+{
+	padding-right:2%;
+}
+
+#cont3
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.e
+{
+	margin:auto;
+}
+
+
+/* ------------ FOOTER -------------------- */
+
+
+
+footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(54, 25, 25, 0.1);
+	width:100% ;
+}
+
+footer ul
+{
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+
+footer li
+{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+footer a
+{
+	color:grey;
+	font-size: 0.8em;
+}
