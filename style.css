@@ -111,9 +111,22 @@ h2
 
 /* ------------ TEXT -------------------- */
 
-p
+p, #pitem a
 {
 	font-size: 0.8em;
+}
+
+#pitem a
+{
+	color: black;
+	text-decoration: none;
+}
+
+#pitem a:hover
+{
+	color:#DAECED;
+	background: #7496D2;
+
 }
 
 /* ------------ MAPS -------------------- */
@@ -146,6 +159,12 @@ img
 	margin-bottom: 50px; 
 }
 
+#image_par
+{
+	align-content: center;
+	width:100%;
+	margin-bottom: 10px; 
+}
 
 figure
 {
@@ -193,19 +212,29 @@ figure
     width: 60%;
 }
 
-section
+#contpar
 {
-	padding-right:2%;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: justify;
+    font-family: Courier;
+    font-style: italic;
+    padding: 20px;
+    width: 80%;
 }
 
-#cont3
+
+#pitem
 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 70%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    width: 20%;
+    text-align: justify;
+    padding: 10px;
 }
 
 .e
